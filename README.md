@@ -1,6 +1,3 @@
-# focus-timer
-Sure! Here's a `README.md` file for your **Focus Timer** app, in the same format you shared:
-
 # focus-timer  
 #### A simple focus timer built using **HTML**, **CSS**, and **JavaScript**, with focused time saved in **localStorage**.  
 > ![image](https://github.com/user-attachments/assets/04432074-8004-48d0-8eaa-1123d5fe8dc8)

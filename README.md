@@ -51,5 +51,3 @@ Sure! Here's a `README.md` file for your **Focus Timer** app, in the same format
   
 ### 📌 Future Ideas
 * Support dark/light mode toggle
-```
-

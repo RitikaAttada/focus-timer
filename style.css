@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #fbf2c4;
+}
+body .heading {
+  font-size: 3rem;
+}
+body .form {
+  width: 60%;
+  height: 20%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+body .form .transaction_buttons {
+  padding: 30px;
+}
+body .form .transaction_buttons .income {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: #008585 solid 2px;
+  color: #007070;
+  font-weight: bold;
+  background-color: #74a892;
+  margin: 5px;
+}
+body .form .transaction_buttons .income:hover {
+  padding: 12px;
+}
+body .form .transaction_buttons .expense {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: #c7522a solid 2px;
+  color: #c7522a;
+  font-weight: bold;
+  background-color: #e5c185;
+  margin: 5px;
+}
+body .form .transaction_buttons .expense:hover {
+  padding: 12px;
+}
+body .form .transaction_buttons .back {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #fbf2c4;
+}
+body .form .transaction_buttons .back:hover {
+  padding: 12px;
+}
+body .form .transaction_buttons .input {
+  padding: 10px;
+  background-color: #fbf2c4;
+  border-radius: 5px;
+}
+body .tracker {
+  width: 57%;
+  height: 60%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 10px;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+body .tracker .trans {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+body .amont_rem {
+  color: black;
+  font-weight: bold;
+}
+body .amount_gained {
+  color: #008585;
+  font-weight: bold;
+}
+body .amount_lost {
+  color: #c7522a;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

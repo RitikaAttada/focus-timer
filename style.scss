@@ -1,0 +1,96 @@
+body {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:100vh;
+    background-color:#fbf2c4;
+    .heading{
+        font-size:3rem;
+    }
+    .form {
+        width:60%;
+        height:20%;
+        background-color:black;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        border-radius:10px;
+        .transaction_buttons {
+            padding:30px;
+            .income {
+                padding: 10px;
+                cursor:pointer;
+                border-radius:5px;
+                border:#008585 solid 2px;
+                color:#007070;
+                font-weight:bold;
+                background-color:#74a892;
+                margin:5px;
+            }
+            .income:hover {
+                padding:12px;
+            }
+            .expense {
+                padding: 10px;
+                cursor:pointer;
+                border-radius:5px;
+                border:#c7522a solid 2px;
+                color:#c7522a;
+                font-weight:bold;
+                background-color:#e5c185;
+                margin:5px;
+            }
+            .expense:hover {
+                padding:12px;
+            }
+            .back {
+                padding: 10px;
+                cursor:pointer;
+                border-radius:5px;
+                margin-right: 10px;
+                background-color:#fbf2c4;
+            }
+            .back:hover {
+                padding:12px;
+            }
+            .input {
+                padding:10px;
+                background-color:#fbf2c4;
+                border-radius:5px;
+            }
+        }
+
+
+    }
+    .tracker {
+        width:57%;
+        height:60%;
+        margin-top:10px;
+        display: flex;
+        flex-direction:column;
+        background-color:black;
+        padding:10px;
+        overflow-y:auto;
+        border-radius:10px;
+        .trans {
+            display:flex;
+            height:40px;
+            align-items:center;
+            margin-top:10px;
+            padding-left:10px;
+        }
+    }
+    .amont_rem {
+        color:black;
+        font-weight:bold;
+    }
+    .amount_gained {
+        color:#008585;
+        font-weight:bold;
+    }
+    .amount_lost {
+        color:#c7522a;
+        font-weight:bold;
+    }
+}

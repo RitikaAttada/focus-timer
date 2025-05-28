@@ -2,7 +2,7 @@
 Sure! Here's a `README.md` file for your **Focus Timer** app, in the same format you shared:
 
 # focus-timer  
-#### A simple Pomodoro-style focus timer built using **HTML**, **CSS**, and **JavaScript**, with focused time saved in **localStorage**.  
+#### A simple focus timer built using **HTML**, **CSS**, and **JavaScript**, with focused time saved in **localStorage**.  
 > ![image](https://github.com/user-attachments/assets/04432074-8004-48d0-8eaa-1123d5fe8dc8)
 > ![image](https://github.com/user-attachments/assets/0d88c498-e9f9-4f82-8a4c-3d0729193888)
 

@@ -32,7 +32,7 @@
 
    * Place `alarm_audio.wav` inside the project folder
 
-3. Open `mainpage.html` in your browser.
+3. Open `index.html` in your browser.
 
 4. Click **Start** to begin focusing.
 
